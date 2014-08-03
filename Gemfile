@@ -5,6 +5,7 @@ gem 'sqlite3'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.12.2'
+  gem 'spork', '~> 1.0rc'
 end
 
 group :test do
